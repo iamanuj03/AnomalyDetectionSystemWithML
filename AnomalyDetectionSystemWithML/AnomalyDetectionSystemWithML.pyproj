@@ -1,0 +1,138 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>7979be2a-394d-4c40-9d59-41ada79f883e</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Anomaly detection in road traffic\dataextraction.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>AnomalyDetectionSystemWithML</Name>
+    <RootNamespace>AnomalyDetectionSystemWithML</RootNamespace>
+    <InterpreterId>Global|PythonCore|3.7</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Anomaly detection in road traffic\AnomalyDetectionScripts\arrayTest.py" />
+    <Compile Include="Anomaly detection in road traffic\AnomalyDetectionScripts\yellow_box_descharted_ssd.py" />
+    <Compile Include="Anomaly detection in road traffic\CSVFiles\csvManipYellowbox.py" />
+    <Compile Include="Anomaly detection in road traffic\dataextraction.py" />
+    <Compile Include="Anomaly detection in road traffic\GUI\Design\dataextraction_support.py" />
+    <Compile Include="Anomaly detection in road traffic\GUI\Design\menu_support.py" />
+    <Compile Include="Anomaly detection in road traffic\GUI\Design\prediction_support.py" />
+    <Compile Include="Anomaly detection in road traffic\GUI\Design\training_support.py" />
+    <Compile Include="Anomaly detection in road traffic\GUI\Events\dataextractionevents.py" />
+    <Compile Include="Anomaly detection in road traffic\menu.py" />
+    <Compile Include="Anomaly detection in road traffic\MLScripts\clsKNN.py" />
+    <Compile Include="Anomaly detection in road traffic\MLScripts\clsOneClassSVM.py" />
+    <Compile Include="Anomaly detection in road traffic\prediction.py" />
+    <Compile Include="Anomaly detection in road traffic\pyimagesearch\centroidtracker.py" />
+    <Compile Include="Anomaly detection in road traffic\pyimagesearch\trackableobject.py" />
+    <Compile Include="Anomaly detection in road traffic\pyimagesearch\utils\conf.py" />
+    <Compile Include="Anomaly detection in road traffic\pyimagesearch\utils\__init__.py" />
+    <Compile Include="Anomaly detection in road traffic\pyimagesearch\__init__.py" />
+    <Compile Include="Anomaly detection in road traffic\speedAnomalyTest.py" />
+    <Compile Include="Anomaly detection in road traffic\speed_estimation_dl.py" />
+    <Compile Include="Anomaly detection in road traffic\training.py" />
+    <Compile Include="Anomaly detection in road traffic\yellow_box_ssd.py" />
+    <Compile Include="AnomalyDetectionSystemWithML.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.7" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Anomaly detection in road traffic\" />
+    <Folder Include="Anomaly detection in road traffic\.idea\" />
+    <Folder Include="Anomaly detection in road traffic\.idea\inspectionProfiles\" />
+    <Folder Include="Anomaly detection in road traffic\.vs\" />
+    <Folder Include="Anomaly detection in road traffic\.vs\Anomaly detection in road traffic\" />
+    <Folder Include="Anomaly detection in road traffic\.vs\Anomaly detection in road traffic\config\" />
+    <Folder Include="Anomaly detection in road traffic\.vs\Anomaly detection in road traffic\v16\" />
+    <Folder Include="Anomaly detection in road traffic\.vs\opencv-speed-detector\" />
+    <Folder Include="Anomaly detection in road traffic\.vs\opencv-speed-detector\config\" />
+    <Folder Include="Anomaly detection in road traffic\.vs\opencv-speed-detector\v16\" />
+    <Folder Include="Anomaly detection in road traffic\AnomalyDetectionScripts\" />
+    <Folder Include="Anomaly detection in road traffic\config\" />
+    <Folder Include="Anomaly detection in road traffic\CSVFiles\" />
+    <Folder Include="Anomaly detection in road traffic\GUI\" />
+    <Folder Include="Anomaly detection in road traffic\GUI\Design\" />
+    <Folder Include="Anomaly detection in road traffic\GUI\Design\__pycache__\" />
+    <Folder Include="Anomaly detection in road traffic\GUI\Events\" />
+    <Folder Include="Anomaly detection in road traffic\GUI\Events\__pycache__\" />
+    <Folder Include="Anomaly detection in road traffic\GUI\__pycache__\" />
+    <Folder Include="Anomaly detection in road traffic\MLScripts\" />
+    <Folder Include="Anomaly detection in road traffic\MLScripts\__pycache__\" />
+    <Folder Include="Anomaly detection in road traffic\Models\" />
+    <Folder Include="Anomaly detection in road traffic\pyimagesearch\" />
+    <Folder Include="Anomaly detection in road traffic\pyimagesearch\utils\" />
+    <Folder Include="Anomaly detection in road traffic\pyimagesearch\utils\__pycache__\" />
+    <Folder Include="Anomaly detection in road traffic\pyimagesearch\__pycache__\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Anomaly detection in road traffic\.idea\inspectionProfiles\profiles_settings.xml" />
+    <Content Include="Anomaly detection in road traffic\.idea\misc.xml" />
+    <Content Include="Anomaly detection in road traffic\.idea\modules.xml" />
+    <Content Include="Anomaly detection in road traffic\.idea\opencv-speed-detector.iml" />
+    <Content Include="Anomaly detection in road traffic\.idea\workspace.xml" />
+    <Content Include="Anomaly detection in road traffic\.vs\Anomaly detection in road traffic\config\applicationhost.config" />
+    <Content Include="Anomaly detection in road traffic\.vs\Anomaly detection in road traffic\v16\.suo" />
+    <Content Include="Anomaly detection in road traffic\.vs\launch.vs.json" />
+    <Content Include="Anomaly detection in road traffic\.vs\opencv-speed-detector\config\applicationhost.config" />
+    <Content Include="Anomaly detection in road traffic\.vs\opencv-speed-detector\v16\.suo" />
+    <Content Include="Anomaly detection in road traffic\.vs\ProjectSettings.json" />
+    <Content Include="Anomaly detection in road traffic\.vs\PythonSettings.json" />
+    <Content Include="Anomaly detection in road traffic\.vs\slnx.sqlite" />
+    <Content Include="Anomaly detection in road traffic\.vs\VSWorkspaceState.json" />
+    <Content Include="Anomaly detection in road traffic\config\config.json" />
+    <Content Include="Anomaly detection in road traffic\config\config_speed_extract_ebene.json" />
+    <Content Include="Anomaly detection in road traffic\config\config_speed_predict_ebene.json" />
+    <Content Include="Anomaly detection in road traffic\config\config_yellowbox_extract.json" />
+    <Content Include="Anomaly detection in road traffic\config\config_yellowbox_predict.json" />
+    <Content Include="Anomaly detection in road traffic\config\yellow2.json" />
+    <Content Include="Anomaly detection in road traffic\CSVFiles\carSpeedCasernes.csv" />
+    <Content Include="Anomaly detection in road traffic\CSVFiles\carSpeedEbene.csv" />
+    <Content Include="Anomaly detection in road traffic\CSVFiles\casernes.csv" />
+    <Content Include="Anomaly detection in road traffic\CSVFiles\casernesMOD.csv" />
+    <Content Include="Anomaly detection in road traffic\CSVFiles\ebene.csv" />
+    <Content Include="Anomaly detection in road traffic\CSVFiles\test.csv" />
+    <Content Include="Anomaly detection in road traffic\GUI\Design\__pycache__\dataextraction.cpython-37.pyc" />
+    <Content Include="Anomaly detection in road traffic\GUI\Design\__pycache__\dataextraction_support.cpython-37.pyc" />
+    <Content Include="Anomaly detection in road traffic\GUI\Design\__pycache__\menu.cpython-37.pyc" />
+    <Content Include="Anomaly detection in road traffic\GUI\Design\__pycache__\menu_support.cpython-37.pyc" />
+    <Content Include="Anomaly detection in road traffic\GUI\Design\__pycache__\prediction_support.cpython-37.pyc" />
+    <Content Include="Anomaly detection in road traffic\GUI\Design\__pycache__\training_support.cpython-37.pyc" />
+    <Content Include="Anomaly detection in road traffic\GUI\Events\__pycache__\dataextractionevents.cpython-37.pyc" />
+    <Content Include="Anomaly detection in road traffic\GUI\__pycache__\dataextraction_support.cpython-37.pyc" />
+    <Content Include="Anomaly detection in road traffic\GUI\__pycache__\menu_support.cpython-37.pyc" />
+    <Content Include="Anomaly detection in road traffic\MLScripts\__pycache__\clsKNN.cpython-37.pyc" />
+    <Content Include="Anomaly detection in road traffic\MLScripts\__pycache__\clsOneClassSVM.cpython-37.pyc" />
+    <Content Include="Anomaly detection in road traffic\Models\knn_casernes_v1.model" />
+    <Content Include="Anomaly detection in road traffic\Models\MobileNetSSD_deploy.caffemodel" />
+    <Content Include="Anomaly detection in road traffic\Models\MobileNetSSD_deploy.prototxt" />
+    <Content Include="Anomaly detection in road traffic\Models\oneclass_ebene_v1.model" />
+    <Content Include="Anomaly detection in road traffic\Models\oneclass_ebene_v2.model" />
+    <Content Include="Anomaly detection in road traffic\pyimagesearch\utils\__pycache__\conf.cpython-37.pyc" />
+    <Content Include="Anomaly detection in road traffic\pyimagesearch\utils\__pycache__\__init__.cpython-37.pyc" />
+    <Content Include="Anomaly detection in road traffic\pyimagesearch\__pycache__\centroidtracker.cpython-37.pyc" />
+    <Content Include="Anomaly detection in road traffic\pyimagesearch\__pycache__\trackableobject.cpython-37.pyc" />
+    <Content Include="Anomaly detection in road traffic\pyimagesearch\__pycache__\__init__.cpython-37.pyc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

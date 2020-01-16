@@ -1,0 +1,70 @@
+{
+  // maximum consecutive frames a given object is allowed to be
+  // marked as "disappeared" until we need to deregister the object
+  // from tracking
+  "max_disappear": 10,
+
+  // maximum distance between centroids to associate an object --
+  // if the distance is larger than this maximum distance we'll
+  // start to mark the object as "disappeared"
+  "max_distance": 100,
+
+  // number of frames to perform object tracking instead of object
+  // detection
+  "track_object": 200,
+
+  // minimum confidence
+  "confidence": 0.2,
+
+  // frame width in pixels
+  "frame_width": 1080,
+
+  // dictionary holding the different speed estimation columns
+  "yellowbox_zone_casernes": {
+    "A_xCoor": 600,
+    "A_yCoor": 735,
+    "B_xCoor": 650,
+    "B_yCoor": 850,
+    "C_xCoor": 700,
+    "C_yCoor": 990
+  },
+
+  "yellowbox_zone_deschartes": {
+    "A_xCoor": 355,
+    "B_xCoor": 575,
+    "C_xCoor": 910,
+    "D_xCoor": 725,
+    "E_xCoor": 740,
+    "F_xCoor": 755,
+    "G_xCoor": 400,
+    "H_xCoor": 465,
+    "I_xCoor": 480
+  },
+
+  // real world distance in meters
+  "distance": 10,
+
+  // speed limit in mph
+  "speed_limit": 17,
+
+  // flag indicating if the frame must be displayed
+  "display": true,
+
+  // path the object detection model
+  "model_path": "Models/MobileNetSSD_deploy.caffemodel",
+
+  // path to the prototxt file of the object detection model
+  "prototxt_path": "Models/MobileNetSSD_deploy.prototxt",
+
+  "save_data": false,
+
+  //change to True when testing ML model
+  "test_model": false,
+
+  //testing casernes video
+  //change to false if testing deschartes video
+  "yellowbox_casernes": true
+
+
+
+}
